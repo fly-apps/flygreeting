@@ -7,6 +7,7 @@ import (
 	"os"
 )
 
+// Greeting holds a language and formal and informal greeting in those languages
 type Greeting struct {
 	Language string `json:"language"`
 	Formal   string `json:"formal"`

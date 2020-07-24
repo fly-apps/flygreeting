@@ -12,6 +12,19 @@ import (
 )
 
 func main() {
+	r := setup()
+
+	var ok bool
+
+	port, ok := os.LookupEnv("PORT")
+	if !ok {
+		port = "8080"
+	}
+
+	r.Run(":" + port)
+}
+
+func setup() *gin.Engine {
 	initCountryLanguageMapping()
 	initGreetingMapping()
 	r := gin.New()
@@ -28,20 +41,13 @@ func main() {
 	}))
 	r.Use(gin.Recovery())
 
-	var ok bool
-
-	port, ok := os.LookupEnv("PORT")
-	if !ok {
-		port = "8080"
-	}
-
 	r.GET("/v1/countries/", countryList)
 	r.GET("/v1/languages/", languageList)
 	r.GET("/v1/language/:countrycode", languageLookup)
 	r.GET("/v1/country/:countrycode", countryLookup)
 	r.GET("/v1/greeting/:languagecode", greetingLookup)
 
-	r.Run(":" + port)
+	return r
 }
 
 func countryList(c *gin.Context) {
