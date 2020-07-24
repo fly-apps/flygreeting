@@ -1,0 +1,1496 @@
+[
+  {
+    "CountryCode": "AD",
+    "CountrynameEnglish": "Andorra",
+    "CountrynameLocal": "Andorra",
+    "Languages": "ca"
+  },
+  {
+    "CountryCode": "AE",
+    "CountrynameEnglish": "United Arab Emirates",
+    "CountrynameLocal": "دولةالإماراتالعربيّةالمتّحدة",
+    "Languages": "ar"
+  },
+  {
+    "CountryCode": "AF",
+    "CountrynameEnglish": "Afghanistan",
+    "CountrynameLocal": "دافغانستاناسلاميدولتدولتاسلامیافغانستان,جمهوریاسلامیافغانستان",
+    "Languages": "fa,ps"
+  },
+  {
+    "CountryCode": "AG",
+    "CountrynameEnglish": "Antigua and Barbuda",
+    "CountrynameLocal": "Antigua and Barbuda",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "AI",
+    "CountrynameEnglish": "Anguilla",
+    "CountrynameLocal": "Anguilla",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "AL",
+    "CountrynameEnglish": "Albania",
+    "CountrynameLocal": "Shqipëria",
+    "Languages": "sq"
+  },
+  {
+    "CountryCode": "AM",
+    "CountrynameEnglish": "Armenia",
+    "CountrynameLocal": "Հայաստան",
+    "Languages": "hy"
+  },
+  {
+    "CountryCode": "AO",
+    "CountrynameEnglish": "Angola",
+    "CountrynameLocal": "Angola",
+    "Languages": "pt"
+  },
+  {
+    "CountryCode": "AQ",
+    "CountrynameEnglish": "Antarctica",
+    "CountrynameLocal": "Antarctica, Antártico, Antarctique, Антарктике",
+    "Languages": "en,es,fr,ru"
+  },
+  {
+    "CountryCode": "AR",
+    "CountrynameEnglish": "Argentina",
+    "CountrynameLocal": "Argentina",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "AS",
+    "CountrynameEnglish": "American Samoa",
+    "CountrynameLocal": "American Samoa",
+    "Languages": "en,sm" 
+  },
+  {
+    "CountryCode": "AT",
+    "CountrynameEnglish": "Austria",
+    "CountrynameLocal": "Österreich",
+    "Languages": "de"
+  },
+  {
+    "CountryCode": "AU",
+    "CountrynameEnglish": "Australia",
+    "CountrynameLocal": "Australia",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "AW",
+    "CountrynameEnglish": "Aruba",
+    "CountrynameLocal": "Aruba",
+    "Languages": "nl,pap"
+  },
+  {
+    "CountryCode": "AX",
+    "CountrynameEnglish": "Aland Islands",
+    "CountrynameLocal": "Åland",
+    "Languages": "sv"
+  },
+  {
+    "CountryCode": "AZ",
+    "CountrynameEnglish": "Azerbaijan",
+    "CountrynameLocal": "Azərbaycan",
+    "Languages": "az"
+  },
+  {
+    "CountryCode": "BA",
+    "CountrynameEnglish": "Bosnia and Herzegovina",
+    "CountrynameLocal": "Bosnai Hercegovina",
+    "Languages": "bs,hr,sr"
+  },
+  {
+    "CountryCode": "BB",
+    "CountrynameEnglish": "Barbados",
+    "CountrynameLocal": "Barbados",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "BD",
+    "CountrynameEnglish": "Bangladesh",
+    "CountrynameLocal": "গণপ্রজাতন্ত্রীবাংলাদেশ",
+    "Languages": "bn"
+  },
+  {
+    "CountryCode": "BE",
+    "CountrynameEnglish": "Belgium",
+    "CountrynameLocal": "België,Belgique,Belgien",
+    "Languages": "nl,fr,de"
+  },
+  {
+    "CountryCode": "BF",
+    "CountrynameEnglish": "Burkina Faso",
+    "CountrynameLocal": "Burkina Faso",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "BG",
+    "CountrynameEnglish": "Bulgaria",
+    "CountrynameLocal": "България",
+    "Languages": "bg"
+  },
+  {
+    "CountryCode": "BH",
+    "CountrynameEnglish": "Bahrain",
+    "CountrynameLocal": "البحرين",
+    "Languages": "ar"
+  },
+  {
+    "CountryCode": "BI",
+    "CountrynameEnglish": "Burundi",
+    "CountrynameLocal": "Burundi",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "BJ",
+    "CountrynameEnglish": "Benin",
+    "CountrynameLocal": "Bénin",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "BL",
+    "CountrynameEnglish": "Saint-Barthélemy",
+    "CountrynameLocal": "Saint-Barthélemy",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "BM",
+    "CountrynameEnglish": "Bermuda",
+    "CountrynameLocal": "Bermuda",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "BN",
+    "CountrynameEnglish": "Brunei Darussalam",
+    "CountrynameLocal": "Brunei Darussalam",
+    "Languages": "ms"
+  },
+  {
+    "CountryCode": "BO",
+    "CountrynameEnglish": "Bolivia",
+    "CountrynameLocal": "Bolivia,Bulibiya,Volívia,Wuliwya",
+    "Languages": "es,qu,gn,ay"
+  },
+  {
+    "CountryCode": "BQ",
+    "CountrynameEnglish": "Caribbean Netherlands",
+    "CountrynameLocal": "Caribisch Nederland",
+    "Languages": "nl"
+  },
+  {
+    "CountryCode": "BR",
+    "CountrynameEnglish": "Brazil",
+    "CountrynameLocal": "Brasil",
+    "Languages": "pt"
+  },
+  {
+    "CountryCode": "BS",
+    "CountrynameEnglish": "Bahamas",
+    "CountrynameLocal": "Bahamas",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "BT",
+    "CountrynameEnglish": "Bhutan",
+    "CountrynameLocal": "འབྲུག་ཡུལ",
+    "Languages": "dz"
+  },
+  {
+    "CountryCode": "BV",
+    "CountrynameEnglish": "Bouvet Island",
+    "CountrynameLocal": "Bouvetøya",
+    "Languages": "no"
+  },
+  {
+    "CountryCode": "BW",
+    "CountrynameEnglish": "Botswana",
+    "CountrynameLocal": "Botswana",
+    "Languages": "en,tn"
+  },
+  {
+    "CountryCode": "BY",
+    "CountrynameEnglish": "Belarus",
+    "CountrynameLocal": "Беларусь",
+    "Languages": "be,ru"
+  },
+  {
+    "CountryCode": "BZ",
+    "CountrynameEnglish": "Belize",
+    "CountrynameLocal": "Belize",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "CA",
+    "CountrynameEnglish": "Canada",
+    "CountrynameLocal": "Canada",
+    "Languages": "en,fr"
+  },
+  {
+    "CountryCode": "CC",
+    "CountrynameEnglish": "Cocos (Keeling) Islands",
+    "CountrynameLocal": "Cocos (Keeling) Islands",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "CD",
+    "CountrynameEnglish": "Democratic Republic of the Congo(Congo-Kinshasa,former Zaire)",
+    "CountrynameLocal": "République Démocratique du Congo",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "CF",
+    "CountrynameEnglish": "Centrafrican Republic",
+    "CountrynameLocal": "République centrafricaine,KödörösêsetîBêafrîka",
+    "Languages": "fr,sg"
+  },
+  {
+    "CountryCode": "CG",
+    "CountrynameEnglish": "Republic of the Congo(Congo-Brazzaville)",
+    "CountrynameLocal": "République du Congo",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "CH",
+    "CountrynameEnglish": "Switzerland",
+    "CountrynameLocal": "Schweiz,Suisse,Svizzera,Svizra",
+    "Languages": "de,fr,it,rm"
+  },
+  {
+    "CountryCode": "CI",
+    "CountrynameEnglish": "Côte d'Ivoire",
+    "CountrynameLocal": "Côte d'Ivoire",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "CK",
+    "CountrynameEnglish": "Cook Islands",
+    "CountrynameLocal": "Cook Islands,KūkiʻĀirani",
+    "Languages": "en,rar"
+  },
+  {
+    "CountryCode": "CL",
+    "CountrynameEnglish": "Chile",
+    "CountrynameLocal": "Chile",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "CM",
+    "CountrynameEnglish": "Cameroon",
+    "CountrynameLocal": "Cameroun,Cameroon",
+    "Languages": "fr,en"
+  },
+  {
+    "CountryCode": "CN",
+    "CountrynameEnglish": "China",
+    "CountrynameLocal": "中国",
+    "Languages": "zh-hans"
+  },
+  {
+    "CountryCode": "CO",
+    "CountrynameEnglish": "Colombia",
+    "CountrynameLocal": "Colombia",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "CR",
+    "CountrynameEnglish": "Costa Rica",
+    "CountrynameLocal": "Costa Rica",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "CU",
+    "CountrynameEnglish": "Cuba",
+    "CountrynameLocal": "Cuba",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "CV",
+    "CountrynameEnglish": "Cabo Verde",
+    "CountrynameLocal": "Cabo Verde",
+    "Languages": "pt"
+  },
+  {
+    "CountryCode": "CW",
+    "CountrynameEnglish": "Curaçao",
+    "CountrynameLocal": "Curaçao",
+    "Languages": "nl,en"
+  },
+  {
+    "CountryCode": "CX",
+    "CountrynameEnglish": "Christmas Island",
+    "CountrynameLocal": "Christmas Island",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "CY",
+    "CountrynameEnglish": "Cyprus",
+    "CountrynameLocal": "Κύπρος,Kibris",
+    "Languages": "el,tr"
+  },
+  {
+    "CountryCode": "CZ",
+    "CountrynameEnglish": "Czech Republic",
+    "CountrynameLocal": "Českárepublika",
+    "Languages": "cs"
+  },
+  {
+    "CountryCode": "DE",
+    "CountrynameEnglish": "Germany",
+    "CountrynameLocal": "Deutschland",
+    "Languages": "de"
+  },
+  {
+    "CountryCode": "DJ",
+    "CountrynameEnglish": "Djibouti",
+    "CountrynameLocal": "Djibouti,جيبوتي,Jabuuti,Gabuutih",
+    "Languages": "fr,ar,so,aa"
+  },
+  {
+    "CountryCode": "DK",
+    "CountrynameEnglish": "Denmark",
+    "CountrynameLocal": "Danmark",
+    "Languages": "da"
+  },
+  {
+    "CountryCode": "DM",
+    "CountrynameEnglish": "Dominica",
+    "CountrynameLocal": "Dominica",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "DO",
+    "CountrynameEnglish": "Dominican Republic",
+    "CountrynameLocal": "República Dominicana",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "DZ",
+    "CountrynameEnglish": "Algeria",
+    "CountrynameLocal": "الجزائر",
+    "Languages": "ar"
+  },
+  {
+    "CountryCode": "EC",
+    "CountrynameEnglish": "Ecuador",
+    "CountrynameLocal": "Ecuador",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "EE",
+    "CountrynameEnglish": "Estonia",
+    "CountrynameLocal": "Eesti",
+    "Languages": "et"
+  },
+  {
+    "CountryCode": "EG",
+    "CountrynameEnglish": "Egypt",
+    "CountrynameLocal": "مصر",
+    "Languages": "ar"
+  },
+  {
+    "CountryCode": "EH",
+    "CountrynameEnglish": "Western Sahara",
+    "CountrynameLocal": "Sahara Occidental",
+    "Languages": "ar,es,fr"
+  },
+  {
+    "CountryCode": "ER",
+    "CountrynameEnglish": "Eritrea",
+    "CountrynameLocal": "ኤርትራ,إرتريا,Eritrea",
+    "Languages": "ti,ar,en"
+  },
+  {
+    "CountryCode": "ES",
+    "CountrynameEnglish": "Spain",
+    "CountrynameLocal": "España",
+    "Languages": "ast,ca,es,eu,gl"
+  },
+  {
+    "CountryCode": "ET",
+    "CountrynameEnglish": "Ethiopia",
+    "CountrynameLocal": "ኢትዮጵያ,Itoophiyaa",
+    "Languages": "am,om"
+  },
+  {
+    "CountryCode": "FI",
+    "CountrynameEnglish": "Finland",
+    "CountrynameLocal": "Suomi",
+    "Languages": "fi,sv,se"
+  },
+  {
+    "CountryCode": "FJ",
+    "CountrynameEnglish": "Fiji",
+    "CountrynameLocal": "Fiji",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "FK",
+    "CountrynameEnglish": "Falkland Islands",
+    "CountrynameLocal": "Falkland Islands",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "FM",
+    "CountrynameEnglish": "Micronesia (Federated States of)",
+    "CountrynameLocal": "Micronesia",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "FO",
+    "CountrynameEnglish": "Faroe Islands",
+    "CountrynameLocal": "Føroyar,Færøerne",
+    "Languages": "fo,da"
+  },
+  {
+    "CountryCode": "FR",
+    "CountrynameEnglish": "France",
+    "CountrynameLocal": "France",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "GA",
+    "CountrynameEnglish": "Gabon",
+    "CountrynameLocal": "Gabon",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "GB",
+    "CountrynameEnglish": "United Kingdom",
+    "CountrynameLocal": "United Kingdom",
+    "Languages": "en,ga,cy,gd,kw"
+  },
+  {
+    "CountryCode": "GD",
+    "CountrynameEnglish": "Grenada",
+    "CountrynameLocal": "Grenada",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "GE",
+    "CountrynameEnglish": "Georgia",
+    "CountrynameLocal": "საქართველო",
+    "Languages": "ka"
+  },
+  {
+    "CountryCode": "GF",
+    "CountrynameEnglish": "French Guiana",
+    "CountrynameLocal": "Guyane française",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "GG",
+    "CountrynameEnglish": "Guernsey",
+    "CountrynameLocal": "Guernsey",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "GH",
+    "CountrynameEnglish": "Ghana",
+    "CountrynameLocal": "Ghana",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "GI",
+    "CountrynameEnglish": "Gibraltar",
+    "CountrynameLocal": "Gibraltar",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "GL",
+    "CountrynameEnglish": "Greenland",
+    "CountrynameLocal": "KalaallitNunaat,Grønland",
+    "Languages": "kl,da"
+  },
+  {
+    "CountryCode": "GM",
+    "CountrynameEnglish": "The Gambia",
+    "CountrynameLocal": "The Gambia",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "GN",
+    "CountrynameEnglish": "Guinea",
+    "CountrynameLocal": "Guinée",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "GP",
+    "CountrynameEnglish": "Guadeloupe",
+    "CountrynameLocal": "Guadeloupe",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "GQ",
+    "CountrynameEnglish": "Equatorial Guinea",
+    "CountrynameLocal": "Guiena ecuatorial,Guinée équatoriale,Guiné Equatorial",
+    "Languages": "es,fr,pt"
+  },
+  {
+    "CountryCode": "GR",
+    "CountrynameEnglish": "Greece",
+    "CountrynameLocal": "Ελλάδα",
+    "Languages": "el"
+  },
+  {
+    "CountryCode": "GS",
+    "CountrynameEnglish": "South Georgia and the South Sandwich Islands",
+    "CountrynameLocal": "South Georgia and the South Sandwich Islands",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "GT",
+    "CountrynameEnglish": "Guatemala",
+    "CountrynameLocal": "Guatemala",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "GU",
+    "CountrynameEnglish": "Guam",
+    "CountrynameLocal": "Guam,Guåhån",
+    "Languages": "en,ch"
+  },
+  {
+    "CountryCode": "GW",
+    "CountrynameEnglish": "Guinea Bissau",
+    "CountrynameLocal": "Guiné-Bissau",
+    "Languages": "pt"
+  },
+  {
+    "CountryCode": "GY",
+    "CountrynameEnglish": "Guyana",
+    "CountrynameLocal": "Guyana",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "HK",
+    "CountrynameEnglish": "Hong Kong (SAR of China)",
+    "CountrynameLocal": "香港,Hong Kong",
+    "Languages": "zh-hant,en"
+  },
+  {
+    "CountryCode": "HM",
+    "CountrynameEnglish": "Heard Islandand McDonald Islands",
+    "CountrynameLocal": "Heard Islandand McDonald Islands",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "HN",
+    "CountrynameEnglish": "Honduras",
+    "CountrynameLocal": "Honduras",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "HR",
+    "CountrynameEnglish": "Croatia",
+    "CountrynameLocal": "Hrvatska",
+    "Languages": "hr"
+  },
+  {
+    "CountryCode": "HT",
+    "CountrynameEnglish": "Haiti",
+    "CountrynameLocal": "Haïti,Ayiti",
+    "Languages": "fr,ht"
+  },
+  {
+    "CountryCode": "HU",
+    "CountrynameEnglish": "Hungary",
+    "CountrynameLocal": "Magyarország",
+    "Languages": "hu"
+  },
+  {
+    "CountryCode": "ID",
+    "CountrynameEnglish": "Indonesia",
+    "CountrynameLocal": "Indonesia",
+    "Languages": "id"
+  },
+  {
+    "CountryCode": "IE",
+    "CountrynameEnglish": "Ireland",
+    "CountrynameLocal": "Ireland,Éire",
+    "Languages": "en,ga"
+  },
+  {
+    "CountryCode": "IL",
+    "CountrynameEnglish": "Israel",
+    "CountrynameLocal": "ישראל",
+    "Languages": "he"
+  },
+  {
+    "CountryCode": "IM",
+    "CountrynameEnglish": "Isle of Man",
+    "CountrynameLocal": "Isle of Man",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "IN",
+    "CountrynameEnglish": "India",
+    "CountrynameLocal": "भारत,India",
+    "Languages": "hi,en"
+  },
+  {
+    "CountryCode": "IO",
+    "CountrynameEnglish": "British Indian Ocean Territory",
+    "CountrynameLocal": "British Indian Ocean Territory",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "IQ",
+    "CountrynameEnglish": "Iraq",
+    "CountrynameLocal": "العراق,Iraq",
+    "Languages": "ar,ku"
+  },
+  {
+    "CountryCode": "IR",
+    "CountrynameEnglish": "Iran",
+    "CountrynameLocal": "ایران",
+    "Languages": "fa"
+  },
+  {
+    "CountryCode": "IS",
+    "CountrynameEnglish": "Iceland",
+    "CountrynameLocal": "Ísland",
+    "Languages": "is"
+  },
+  {
+    "CountryCode": "IT",
+    "CountrynameEnglish": "Italy",
+    "CountrynameLocal": "Italia",
+    "Languages": "it,de,fr"
+  },
+  {
+    "CountryCode": "JE",
+    "CountrynameEnglish": "Jersey",
+    "CountrynameLocal": "Jersey",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "JM",
+    "CountrynameEnglish": "Jamaica",
+    "CountrynameLocal": "Jamaica",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "JO",
+    "CountrynameEnglish": "Jordan",
+    "CountrynameLocal": "الأُرْدُن",
+    "Languages": "ar"
+  },
+  {
+    "CountryCode": "JP",
+    "CountrynameEnglish": "Japan",
+    "CountrynameLocal": "日本",
+    "Languages": "ja"
+  },
+  {
+    "CountryCode": "KE",
+    "CountrynameEnglish": "Kenya",
+    "CountrynameLocal": "Kenya",
+    "Languages": "sw,en"
+  },
+  {
+    "CountryCode": "KG",
+    "CountrynameEnglish": "Kyrgyzstan",
+    "CountrynameLocal": "Кыргызстан,Киргизия",
+    "Languages": "ky,ru"
+  },
+  {
+    "CountryCode": "KH",
+    "CountrynameEnglish": "Cambodia",
+    "CountrynameLocal": "កម្ពុជា",
+    "Languages": "km"
+  },
+  {
+    "CountryCode": "KI",
+    "CountrynameEnglish": "Kiribati",
+    "CountrynameLocal": "Kiribati",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "KM",
+    "CountrynameEnglish": "Comores",
+    "CountrynameLocal": "ﺍﻟﻘﻤﺮي,Comores,Komori",
+    "Languages": "ar,fr,sw"
+  },
+  {
+    "CountryCode": "KN",
+    "CountrynameEnglish": "Saint Kitts and Nevis",
+    "CountrynameLocal": "Saint Kitts and Nevis",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "KP",
+    "CountrynameEnglish": "North Korea",
+    "CountrynameLocal": "북조선",
+    "Languages": "ko"
+  },
+  {
+    "CountryCode": "KR",
+    "CountrynameEnglish": "South Korea",
+    "CountrynameLocal": "대한민국",
+    "Languages": "ko,en"
+  },
+  {
+    "CountryCode": "KW",
+    "CountrynameEnglish": "Kuwait",
+    "CountrynameLocal": "الكويت",
+    "Languages": "ar"
+  },
+  {
+    "CountryCode": "KY",
+    "CountrynameEnglish": "Cayman Islands",
+    "CountrynameLocal": "Cayman Islands",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "KZ",
+    "CountrynameEnglish": "Kazakhstan",
+    "CountrynameLocal": "Қазақстан,Казахстан",
+    "Languages": "kk,ru"
+  },
+  {
+    "CountryCode": "LA",
+    "CountrynameEnglish": "Laos",
+    "CountrynameLocal": "ປະຊາຊົນລາວ",
+    "Languages": "lo"
+  },
+  {
+    "CountryCode": "LB",
+    "CountrynameEnglish": "Lebanon",
+    "CountrynameLocal": "لبنان,Liban",
+    "Languages": "ar,fr"
+  },
+  {
+    "CountryCode": "LC",
+    "CountrynameEnglish": "Saint Lucia",
+    "CountrynameLocal": "Saint Lucia",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "LI",
+    "CountrynameEnglish": "Liechtenstein",
+    "CountrynameLocal": "Liechtenstein",
+    "Languages": "de"
+  },
+  {
+    "CountryCode": "LK",
+    "CountrynameEnglish": "Sri Lanka",
+    "CountrynameLocal": "ශ්‍රීලංකා,இலங்கை",
+    "Languages": "si,ta"
+  },
+  {
+    "CountryCode": "LR",
+    "CountrynameEnglish": "Liberia",
+    "CountrynameLocal": "Liberia",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "LS",
+    "CountrynameEnglish": "Lesotho",
+    "CountrynameLocal": "Lesotho",
+    "Languages": "en,st"
+  },
+  {
+    "CountryCode": "LT",
+    "CountrynameEnglish": "Lithuania",
+    "CountrynameLocal": "Lietuva",
+    "Languages": "lt"
+  },
+  {
+    "CountryCode": "LU",
+    "CountrynameEnglish": "Luxembourg",
+    "CountrynameLocal": "Lëtzebuerg,Luxembourg,Luxemburg",
+    "Languages": "lb,fr,de"
+  },
+  {
+    "CountryCode": "LV",
+    "CountrynameEnglish": "Latvia",
+    "CountrynameLocal": "Latvija",
+    "Languages": "lv"
+  },
+  {
+    "CountryCode": "LY",
+    "CountrynameEnglish": "Libya",
+    "CountrynameLocal": "ليبيا",
+    "Languages": "ar"
+  },
+  {
+    "CountryCode": "MA",
+    "CountrynameEnglish": "Morocco",
+    "CountrynameLocal": "Maroc,ⵍⵎⵖⵔⵉⴱ,المغرب",
+    "Languages": "fr,zgh,ar"
+  },
+  {
+    "CountryCode": "MC",
+    "CountrynameEnglish": "Monaco",
+    "CountrynameLocal": "Monaco",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "MD",
+    "CountrynameEnglish": "Moldova",
+    "CountrynameLocal": "Moldova,Молдавия",
+    "Languages": "ro,ru,uk"
+  },
+  {
+    "CountryCode": "ME",
+    "CountrynameEnglish": "Montenegro",
+    "CountrynameLocal": "CrnaGora,ЦрнаГора",
+    "Languages": "srp,sr,hr,bs,sq"
+  },
+  {
+    "CountryCode": "MF",
+    "CountrynameEnglish": "SaintMartin(Frenchpart)",
+    "CountrynameLocal": "Saint-Martin",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "MG",
+    "CountrynameEnglish": "Madagascar",
+    "CountrynameLocal": "Madagasikara,Madagascar",
+    "Languages": "mg,fr"
+  },
+  {
+    "CountryCode": "MH",
+    "CountrynameEnglish": "Marshall Islands",
+    "CountrynameLocal": "Marshall Islands",
+    "Languages": "en,mh"
+  },
+  {
+    "CountryCode": "MK",
+    "CountrynameEnglish": "Macedonia(Former Yugoslav Republic of)",
+    "CountrynameLocal": "Македонија",
+    "Languages": "mk"
+  },
+  {
+    "CountryCode": "ML",
+    "CountrynameEnglish": "Mali",
+    "CountrynameLocal": "Mali",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "MM",
+    "CountrynameEnglish": "Myanmar",
+    "CountrynameLocal": "မြန်မာ",
+    "Languages": "my"
+  },
+  {
+    "CountryCode": "MN",
+    "CountrynameEnglish": "Mongolia",
+    "CountrynameLocal": "МонголУлс",
+    "Languages": "mn"
+  },
+  {
+    "CountryCode": "MO",
+    "CountrynameEnglish": "Macao (SAR of China)",
+    "CountrynameLocal": "澳門,Macau",
+    "Languages": "zh-hant,pt"
+  },
+  {
+    "CountryCode": "MP",
+    "CountrynameEnglish": "Northern Mariana Islands",
+    "CountrynameLocal": "Northern Mariana Islands",
+    "Languages": "en,ch"
+  },
+  {
+    "CountryCode": "MQ",
+    "CountrynameEnglish": "Martinique",
+    "CountrynameLocal": "Martinique",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "MR",
+    "CountrynameEnglish": "Mauritania",
+    "CountrynameLocal": "موريتانيا,Mauritanie",
+    "Languages": "ar,fr"
+  },
+  {
+    "CountryCode": "MS",
+    "CountrynameEnglish": "Montserrat",
+    "CountrynameLocal": "Montserrat",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "MT",
+    "CountrynameEnglish": "Malta",
+    "CountrynameLocal": "Malta",
+    "Languages": "mt,en"
+  },
+  {
+    "CountryCode": "MU",
+    "CountrynameEnglish": "Mauritius",
+    "CountrynameLocal": "Maurice,Mauritius",
+    "Languages": "mfe,fr,en"
+  },
+  {
+    "CountryCode": "MV",
+    "CountrynameEnglish": "Maldives",
+    "CountrynameLocal": "Maldives",
+    "Languages": "dv"
+  },
+  {
+    "CountryCode": "MW",
+    "CountrynameEnglish": "Malawi",
+    "CountrynameLocal": "Malawi",
+    "Languages": "en,ny"
+  },
+  {
+    "CountryCode": "MX",
+    "CountrynameEnglish": "Mexico",
+    "CountrynameLocal": "México",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "MY",
+    "CountrynameEnglish": "Malaysia",
+    "CountrynameLocal": "Malaysia",
+    "Languages": "ms"
+  },
+  {
+    "CountryCode": "MZ",
+    "CountrynameEnglish": "Mozambique",
+    "CountrynameLocal": "Mozambique",
+    "Languages": "pt"
+  },
+  {
+    "CountryCode": "NA",
+    "CountrynameEnglish": "Namibia",
+    "CountrynameLocal": "Namibia",
+    "Languages": "en,sf,de"
+  },
+  {
+    "CountryCode": "NC",
+    "CountrynameEnglish": "New Caledonia",
+    "CountrynameLocal": "Nouvelle-Calédonie",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "NE",
+    "CountrynameEnglish": "Niger",
+    "CountrynameLocal": "Niger",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "NF",
+    "CountrynameEnglish": "Norfolk Island",
+    "CountrynameLocal": "Norfolk Island",
+    "Languages": "en,pih"
+  },
+  {
+    "CountryCode": "NG",
+    "CountrynameEnglish": "Nigeria",
+    "CountrynameLocal": "Nigeria",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "NI",
+    "CountrynameEnglish": "Nicaragua",
+    "CountrynameLocal": "Nicaragua",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "NL",
+    "CountrynameEnglish": "The Netherlands",
+    "CountrynameLocal": "Nederland",
+    "Languages": "nl"
+  },
+  {
+    "CountryCode": "NO",
+    "CountrynameEnglish": "Norway",
+    "CountrynameLocal": "Norge,Noreg",
+    "Languages": "nb,nn,no,se"
+  },
+  {
+    "CountryCode": "NP",
+    "CountrynameEnglish": "Nepal",
+    "CountrynameLocal": "सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल ",
+    "Languages": "ne"
+  },
+  {
+    "CountryCode": "NR",
+    "CountrynameEnglish": "Nauru",
+    "CountrynameLocal": "Nauru",
+    "Languages": "na,en"
+  },
+  {
+    "CountryCode": "NU",
+    "CountrynameEnglish": "Niue",
+    "CountrynameLocal": "Niue",
+    "Languages": "niu,en"
+  },
+  {
+    "CountryCode": "NZ",
+    "CountrynameEnglish": "New Zealand",
+    "CountrynameLocal": "New Zealand",
+    "Languages": "mi,en"
+  },
+  {
+    "CountryCode": "OM",
+    "CountrynameEnglish": "Oman",
+    "CountrynameLocal": "سلطنةعُمان",
+    "Languages": "ar"
+  },
+  {
+    "CountryCode": "PA",
+    "CountrynameEnglish": "Panama",
+    "CountrynameLocal": "Panama",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "PE",
+    "CountrynameEnglish": "Peru",
+    "CountrynameLocal": "Perú",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "PF",
+    "CountrynameEnglish": "French Polynesia",
+    "CountrynameLocal": "Polynésie française",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "PG",
+    "CountrynameEnglish": "Papua New Guinea",
+    "CountrynameLocal": "Papua New Guinea",
+    "Languages": "en,tpi,ho"
+  },
+  {
+    "CountryCode": "PH",
+    "CountrynameEnglish": "Philippines",
+    "CountrynameLocal": "Philippines",
+    "Languages": "en,tl"
+  },
+  {
+    "CountryCode": "PK",
+    "CountrynameEnglish": "Pakistan",
+    "CountrynameLocal": "پاکستان",
+    "Languages": "en,ur"
+  },
+  {
+    "CountryCode": "PL",
+    "CountrynameEnglish": "Poland",
+    "CountrynameLocal": "Polska",
+    "Languages": "pl"
+  },
+  {
+    "CountryCode": "PM",
+    "CountrynameEnglish": "Saint Pierre and Miquelon",
+    "CountrynameLocal": "Saint-Pierre-et-Miquelon",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "PN",
+    "CountrynameEnglish": "Pitcairn",
+    "CountrynameLocal": "Pitcairn",
+    "Languages": "en,pih"
+  },
+  {
+    "CountryCode": "PR",
+    "CountrynameEnglish": "Puerto Rico",
+    "CountrynameLocal": "Puerto Rico",
+    "Languages": "es,en"
+  },
+  {
+    "CountryCode": "PS",
+    "CountrynameEnglish": "Palestinian Territory",
+    "CountrynameLocal": "Palestinian Territory",
+    "Languages": "ar,he"
+  },
+  {
+    "CountryCode": "PT",
+    "CountrynameEnglish": "Portugal",
+    "CountrynameLocal": "Portugal",
+    "Languages": "pt"
+  },
+  {
+    "CountryCode": "PW",
+    "CountrynameEnglish": "Palau",
+    "CountrynameLocal": "Palau",
+    "Languages": "en,pau,ja,sov,tox"
+  },
+  {
+    "CountryCode": "PY",
+    "CountrynameEnglish": "Paraguay",
+    "CountrynameLocal": "Paraguay",
+    "Languages": "es,gn"
+  },
+  {
+    "CountryCode": "QA",
+    "CountrynameEnglish": "Qatar",
+    "CountrynameLocal": "قطر",
+    "Languages": "ar"
+  },
+  {
+    "CountryCode": "RE",
+    "CountrynameEnglish": "Reunion",
+    "CountrynameLocal": "La Réunion",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "RO",
+    "CountrynameEnglish": "Romania",
+    "CountrynameLocal": "România",
+    "Languages": "ro"
+  },
+  {
+    "CountryCode": "RS",
+    "CountrynameEnglish": "Serbia",
+    "CountrynameLocal": "Србија",
+    "Languages": "sr,sr-latn"
+  },
+  {
+    "CountryCode": "RU",
+    "CountrynameEnglish": "Russia",
+    "CountrynameLocal": "Россия",
+    "Languages": "ru"
+  },
+  {
+    "CountryCode": "RW",
+    "CountrynameEnglish": "Rwanda",
+    "CountrynameLocal": "Rwanda",
+    "Languages": "rw,fr,en"
+  },
+  {
+    "CountryCode": "SA",
+    "CountrynameEnglish": "Saudi Arabia",
+    "CountrynameLocal": "السعودية",
+    "Languages": "ar"
+  },
+  {
+    "CountryCode": "SB",
+    "CountrynameEnglish": "Solomon Islands",
+    "CountrynameLocal": "Solomon Islands",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "SC",
+    "CountrynameEnglish": "Seychelles",
+    "CountrynameLocal": "Seychelles",
+    "Languages": "fr,en,crs"
+  },
+  {
+    "CountryCode": "SD",
+    "CountrynameEnglish": "Sudan",
+    "CountrynameLocal": "السودان",
+    "Languages": "ar,en"
+  },
+  {
+    "CountryCode": "SE",
+    "CountrynameEnglish": "Sweden",
+    "CountrynameLocal": "Sverige",
+    "Languages": "sv"
+  },
+  {
+    "CountryCode": "SG",
+    "CountrynameEnglish": "Singapore",
+    "CountrynameLocal": "Singapore",
+    "Languages": "zh-hans,en,ms,ta"
+  },
+  {
+    "CountryCode": "SH",
+    "CountrynameEnglish": "Saint Helena",
+    "CountrynameLocal": "Saint Helena",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "SI",
+    "CountrynameEnglish": "Slovenia",
+    "CountrynameLocal": "Slovenija",
+    "Languages": "sl"
+  },
+  {
+    "CountryCode": "SJ",
+    "CountrynameEnglish": "Svalbard and Jan Mayen",
+    "CountrynameLocal": "Svalbard and Jan Mayen",
+    "Languages": "no"
+  },
+  {
+    "CountryCode": "SK",
+    "CountrynameEnglish": "Slovakia",
+    "CountrynameLocal": "Slovensko",
+    "Languages": "sk"
+  },
+  {
+    "CountryCode": "SL",
+    "CountrynameEnglish": "Sierra Leone",
+    "CountrynameLocal": "Sierra Leone",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "SM",
+    "CountrynameEnglish": "San Marino",
+    "CountrynameLocal": "San Marino",
+    "Languages": "it"
+  },
+  {
+    "CountryCode": "SN",
+    "CountrynameEnglish": "Sénégal",
+    "CountrynameLocal": "Sénégal",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "SO",
+    "CountrynameEnglish": "Somalia",
+    "CountrynameLocal": "Somalia,الصومال",
+    "Languages": "so,ar"
+  },
+  {
+    "CountryCode": "SR",
+    "CountrynameEnglish": "Suriname",
+    "CountrynameLocal": "Suriname",
+    "Languages": "nl"
+  },
+  {
+    "CountryCode": "ST",
+    "CountrynameEnglish": "São Tomé and Príncipe",
+    "CountrynameLocal": "São Tomée Príncipe",
+    "Languages": "pt"
+  },
+  {
+    "CountryCode": "SS",
+    "CountrynameEnglish": "South Sudan",
+    "CountrynameLocal": "South Sudan",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "SV",
+    "CountrynameEnglish": "El Salvador",
+    "CountrynameLocal": "El Salvador",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "SX",
+    "CountrynameEnglish": "Saint Martin(Dutchpart)",
+    "CountrynameLocal": "Sint Maarten",
+    "Languages": "nl,en"
+  },
+  {
+    "CountryCode": "SY",
+    "CountrynameEnglish": "Syria",
+    "CountrynameLocal": "سوريا,Sūriyya",
+    "Languages": "ar"
+  },
+  {
+    "CountryCode": "SZ",
+    "CountrynameEnglish": "Swaziland",
+    "CountrynameLocal": "Swaziland",
+    "Languages": "en,ss"
+  },
+  {
+    "CountryCode": "TC",
+    "CountrynameEnglish": "Turks and Caicos Islands",
+    "CountrynameLocal": "Turks and Caicos Islands",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "TD",
+    "CountrynameEnglish": "Chad",
+    "CountrynameLocal": "Tchad,تشاد",
+    "Languages": "fr,ar"
+  },
+  {
+    "CountryCode": "TF",
+    "CountrynameEnglish": "French Southern and Antarctic Lands",
+    "CountrynameLocal": "Terres australeset ant arctiques françaises",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "TG",
+    "CountrynameEnglish": "Togo",
+    "CountrynameLocal": "Togo",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "TH",
+    "CountrynameEnglish": "Thailand",
+    "CountrynameLocal": "ประเทศไทย",
+    "Languages": "th"
+  },
+  {
+    "CountryCode": "TJ",
+    "CountrynameEnglish": "Tajikistan",
+    "CountrynameLocal": "تاجیکستان",
+    "Languages": "tg,ru"
+  },
+  {
+    "CountryCode": "TK",
+    "CountrynameEnglish": "Tokelau",
+    "CountrynameLocal": "Tokelau",
+    "Languages": "tkl,en,sm"
+  },
+  {
+    "CountryCode": "TL",
+    "CountrynameEnglish": "Timor-Leste",
+    "CountrynameLocal": "Timor-Leste,TimorLorosa'e",
+    "Languages": "pt,tet"
+  },
+  {
+    "CountryCode": "TM",
+    "CountrynameEnglish": "Turkmenistan",
+    "CountrynameLocal": "Türkmenistan",
+    "Languages": "tk"
+  },
+  {
+    "CountryCode": "TN",
+    "CountrynameEnglish": "Tunisia",
+    "CountrynameLocal": "تونس,Tunisie",
+    "Languages": "ar,fr"
+  },
+  {
+    "CountryCode": "TO",
+    "CountrynameEnglish": "Tonga",
+    "CountrynameLocal": "Tonga",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "TR",
+    "CountrynameEnglish": "Turkey",
+    "CountrynameLocal": "Türkiye",
+    "Languages": "tr"
+  },
+  {
+    "CountryCode": "TT",
+    "CountrynameEnglish": "Trinidad and Tobago",
+    "CountrynameLocal": "Trinidad and Tobago",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "TV",
+    "CountrynameEnglish": "Tuvalu",
+    "CountrynameLocal": "Tuvalu",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "TW",
+    "CountrynameEnglish": "Taiwan",
+    "CountrynameLocal": "Taiwan",
+    "Languages": "zh-hant"
+  },
+  {
+    "CountryCode": "TZ",
+    "CountrynameEnglish": "Tanzania",
+    "CountrynameLocal": "Tanzania",
+    "Languages": "sw,en"
+  },
+  {
+    "CountryCode": "UA",
+    "CountrynameEnglish": "Ukraine",
+    "CountrynameLocal": "Україна",
+    "Languages": "uk"
+  },
+  {
+    "CountryCode": "UG",
+    "CountrynameEnglish": "Uganda",
+    "CountrynameLocal": "Uganda",
+    "Languages": "en,sw"
+  },
+  {
+    "CountryCode": "UM",
+    "CountrynameEnglish": "United States Minor Outlying Islands",
+    "CountrynameLocal": "UnitedStates Minor Outlying Islands",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "US",
+    "CountrynameEnglish": "United States of America",
+    "CountrynameLocal": "United States of America",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "UY",
+    "CountrynameEnglish": "Uruguay",
+    "CountrynameLocal": "Uruguay",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "UZ",
+    "CountrynameEnglish": "Uzbekistan",
+    "CountrynameLocal": "Oʻzbekiston Respublikasi",
+    "Languages": "uz,kaa"
+  },
+  {
+    "CountryCode": "VA",
+    "CountrynameEnglish": "City of the Vatican",
+    "CountrynameLocal": "Cittàdel Vaticano",
+    "Languages": "it"
+  },
+  {
+    "CountryCode": "VC",
+    "CountrynameEnglish": "Saint Vincent and the Grenadines",
+    "CountrynameLocal": "Saint Vincent and the Grenadines",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "VE",
+    "CountrynameEnglish": "Venezuela",
+    "CountrynameLocal": "Venezuela",
+    "Languages": "es"
+  },
+  {
+    "CountryCode": "VG",
+    "CountrynameEnglish": "British Virgin Islands",
+    "CountrynameLocal": "British Virgin Islands",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "VI",
+    "CountrynameEnglish": "United States Virgin Islands",
+    "CountrynameLocal": "United States Virgin Islands",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "VN",
+    "CountrynameEnglish": "Vietnam",
+    "CountrynameLocal": "ViệtNam",
+    "Languages": "vi"
+  },
+  {
+    "CountryCode": "VU",
+    "CountrynameEnglish": "Vanuatu",
+    "CountrynameLocal": "Vanuatu",
+    "Languages": "bi,en,fr"
+  },
+  {
+    "CountryCode": "WF",
+    "CountrynameEnglish": "Wallis and Futuna",
+    "CountrynameLocal": "Wallis-et-Futuna",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "WS",
+    "CountrynameEnglish": "Samoa",
+    "CountrynameLocal": "Samoa",
+    "Languages": "sm,en"
+  },
+  {
+    "CountryCode": "YE",
+    "CountrynameEnglish": "Yemen",
+    "CountrynameLocal": "اليَمَن",
+    "Languages": "ar"
+  },
+  {
+    "CountryCode": "YT",
+    "CountrynameEnglish": "Mayotte",
+    "CountrynameLocal": "Mayotte",
+    "Languages": "fr"
+  },
+  {
+    "CountryCode": "ZA",
+    "CountrynameEnglish": "South Africa",
+    "CountrynameLocal": "South Africa",
+    "Languages": "en,af,st,tn,xh,zu"
+  },
+  {
+    "CountryCode": "ZM",
+    "CountrynameEnglish": "Zambia",
+    "CountrynameLocal": "Zambia",
+    "Languages": "en"
+  },
+  {
+    "CountryCode": "ZW",
+    "CountrynameEnglish": "Zimbabwe",
+    "CountrynameLocal": "Zimbabwe",
+    "Languages": "en,sn,nd"
+  }
+]

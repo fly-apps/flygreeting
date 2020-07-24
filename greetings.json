@@ -1,0 +1,9 @@
+[
+  { "language": "en", "formal": "Hello", "informal": "Hey" },
+  { "language": "ar", "formal": "Asalaam alaikum", "informal": "Ahlan" },
+  { "language": "bg", "formal": "Zdraveĭte", "informal": "Zdrasti" },
+  { "language": "zh", "formal": "Nǐn hǎo", "informal": "Nǐ hǎo" },
+  { "language": "nl", "formal": "Goede dag", "informal": "Halo" },
+  { "language": "fr", "formal": "Bonjour", "informal": "Salut" },
+  { "language": "ga", "formal": "Dia dhuit", "informal": "Hug" }
+]
