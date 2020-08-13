@@ -38,7 +38,17 @@ docker build -t flygreeting .
 docker run -p 8000:8080 -d flygreeting
 ```
 
-Visit your application in the browser at `http://localhost:8000/v1/countries`. You should see a JSON response from the Flygreeting application.
+To test the application, call the `/countries` endpoint using curl:
+
+```bash
+curl http://localhost:8000/v1/countries/
+```
+
+You should see a JSON response with all the available country abbreviations:
+
+```json
+{"countries":["AD","AE","AF","AG","AI","AL","AM","AO","AQ","AR","AS","AT","AU","AW","AX","AZ","BA","BB","BD","BE","BF","BG","BH","BI","BJ","BL","BM","BN","BO","BQ","BR","BS","BT","BV","BW","BY","BZ","CA","CC","CD","CF","CG","CH","CI","CK","CL","CM","CN","CO","CR","CU","CV","CW","CX","CY","CZ","DE","DJ","DK","DM","DO","DZ","EC","EE","EG","EH","ER","ES","ET","FI","FJ","FK","FM","FO","FR","GA","GB","GD","GE","GF","GG","GH","GI","GL","GM","GN","GP","GQ","GR","GS","GT","GU","GW","GY","HK","HM","HN","HR","HT","HU","ID","IE","IL","IM","IN","IO","IQ","IR","IS","IT","JE","JM","JO","JP","KE","KG","KH","KI","KM","KN","KP","KR","KW","KY","KZ","LA","LB","LC","LI","LK","LR","LS","LT","LU","LV","LY","MA","MC","MD","ME","MF","MG","MH","MK","ML","MM","MN","MO","MP","MQ","MR","MS","MT","MU","MV","MW","MX","MY","MZ","NA","NC","NE","NF","NG","NI","NL","NO","NP","NR","NU","NZ","OM","PA","PE","PF","PG","PH","PK","PL","PM","PN","PR","PS","PT","PW","PY","QA","RE","RO","RS","RU","RW","SA","SB","SC","SD","SE","SG","SH","SI","SJ","SK","SL","SM","SN","SO","SR","SS","ST","SV","SX","SY","SZ","TC","TD","TF","TG","TH","TJ","TK","TL","TM","TN","TO","TR","TT","TV","TW","TZ","UA","UG","UM","US","UY","UZ","VA","VC","VE","VG","VI","VN","VU","WF","WS","YE","YT","ZA","ZM","ZW"]}
+```
 
 ### Creating the Fly Configuration file
 You'll need to use `flyctl` to create a new application and configuration file. If you haven't already, install the appropriate version of `flyctl` for your operating system using the [instructions here](https://fly.io/docs/hands-on/installing/).
@@ -174,7 +184,13 @@ Commit and push your changes to the `main` branch of your GitHub or Bitbucket `f
 
 ![](fly-travis-3.png)
 
-Once the Travis CI build has completed successfully, open the `flygreeting` app in the browser by running `flyctl open /v1/countries` on your local machine. You should see a JSON response with a list of countries in your browser.
+Once the Travis CI build has completed successfully, open the `flygreeting` app in the browser by running `flyctl open /v1/countries` on your local machine or call the endpoint with curl:
+
+```bash
+curl https://<your-fly-app-name>.fly.dev/v1/countries/
+```
+
+You should see a JSON response with the same country abbreviations seen above.
 
 ## Conclusion
 In this tutorial, you’ve learned how to test and deploy a simple Go application to Fly using Travis CI. You’ve seen how to use the Flyctl command-line tool, connect a repository hosting platform to Travis, configure Travis for Fly, and finally check your running application on Fly. Updates to your application will be automatically deployed by pushing your code to GitHub/Bitbucket.
