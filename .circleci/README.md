@@ -1,12 +1,12 @@
 # Continuous Deployment for Fly Applications with CircleCI
 
-[Continuous deployment](https://www.scaledagileframework.com/continuous-deployment/) is a process in software that aims to minimize the time it takes, between adding changes to an application and deployment to users. To achieve this, every step of the testing, building and deployment process must be automated. This results in a more consistent release process with fewer errors than manual deployments.
+[Continuous deployment](https://www.scaledagileframework.com/continuous-deployment/) is a software process that aims to minimize the time it takes between adding changes to an application and deployment to users. To achieve this, every step of the testing, building, and deployment process must be automated. This results in a more consistent release process with fewer errors than manual deployments.
 
-[CircleCI](https://circleci.com/) is one of the most popular continuous integration platforms used for automating continuous deployment. It will run your application’s tests and deploy it automatically when you push changes to version control.
+[CircleCI](https://circleci.com/) is one of the most popular continuous integration platforms for automating continuous deployment. It will run your application’s tests and deploy it automatically when you push changes to version control.
 
 [Fly](https://fly.io/) is a Docker-based platform as a service (PaaS) that allows you to deploy applications on the servers closest to your users. This enables you to deliver your application to users with minimal latency and improved reliability. Most applications that can be packaged as a Docker image can be deployed to Fly.
 
-This tutorial describes how to deploy an application to Fly using CircleCI. You will learn how to connect your project's repository to CircleCI, and configure CircleCI to automate the deployments to Fly.
+This tutorial describes how to deploy an application to Fly using CircleCI. You will learn how to connect your project's repository to CircleCI and configure it to automate deployments to Fly.
 
 ### Prerequisites
 - A [Github](http://github.com/) or [Bitbucket](http://bitbucket.org/) account.
@@ -14,9 +14,9 @@ This tutorial describes how to deploy an application to Fly using CircleCI. You 
 - (Optional) [Docker](https://www.docker.com/) for testing the demo application locally.
 
 ### Cloning the sample application
-This tutorial uses the [flygreeting](https://github.com/fly-examples/flygreeting) sample application. If you use Github, simply fork [the flygreeting repository](https://github.com/fly-examples/flygreeting) to your account and clone it to your local machine.
+This tutorial uses the [flygreeting](https://github.com/fly-examples/flygreeting) sample application. If you use Github, simply fork [the `flygreeting` repository](https://github.com/fly-examples/flygreeting) to your account and clone it to your local machine.
 
-If you use Bitbucket, click the **Create Repository** button, then the **import repository** link at the top right corner and enter the following url: https://github.com/fly-examples/flygreeting.git in the url box, select a project and click the **Import Repository** button. You can then clone the repository to your local machine.
+If you use Bitbucket, click the **Create Repository** button, click the **import repository** link at the top right corner, and enter `https://github.com/fly-examples/flygreeting.git` in the URL box, select a project and click the **Import Repository** button. You can then clone the repository to your local machine.
 
 ```
 git clone git@github.com:fly-examples/flygreeting.git
@@ -46,7 +46,7 @@ You should get a JSON response with a list of country codes.
 
 ### Creating the Fly Configuration file
 
-Next, you need to reserve a namespace on the Fly platform remotely and create a fly configuration file. You need the `flyctl` command line tool for that. If you haven't already, visit [flyctl](https://fly.io/docs/hands-on/installing/) to learn how to install the fly CLI for your machine.
+Next, you need to reserve a namespace on the Fly platform remotely and create a fly configuration file. You need the `flyctl` command-line tool for that. If you haven't already, visit [flyctl](https://fly.io/docs/hands-on/installing/) to learn how to install the fly CLI for your machine.
 
 We then login/sign up to fly:
 
@@ -66,7 +66,7 @@ Every fly application needs a `fly.toml` file to manage deployment. You can find
  flyctl apps create
 ```
 
-The `flyctl apps create` command creates an interactive session which requests for things like the 'App name' and 'Organization name'. The App name is expected to be a unique name. You can type in a unique App name, or leave it blank if you want a unique Fly auto-generated name to avoid namespace collisions. Fly will also reserve the app name on the platform, for when you deploy.
+The `flyctl apps create` command creates an interactive session that requests things like the 'App name' and 'Organization name'. You can type a unique App name, or leave it blank if you want a Fly to auto-generate name to avoid namespace collisions. Fly will also reserve the app name on the platform, for when you deploy.
 
 At the end of the session, your `fly.toml` file should look like the following, with a different app name:
 
@@ -102,14 +102,14 @@ app = "circleci-flygreeting"
 To start using CircleCI with your repository, complete the following steps:
 
 1. Visit [circleci.com/signup](https://circleci.com/signup/).
-2. Click one of the buttons: **Sign up with Github** or **Sign up with Bitbucket** to start the sign up process.
-3. Enter your Github or Bitbucket passwords and authorize two factor Authentication if present.
+2. Click one of the buttons: **Sign up with Github** or **Sign up with Bitbucket** to start the signup process.
+3. Enter your Github or Bitbucket passwords and authorize two-factor Authentication if present.
 4. Click the **Authorize Circle CI** or **Grant access** button to grant access. You are immediately redirected to the [Circle CI Project Dashboard](https://app.circleci.com/projects).
 5. Select the organization you wish to work with.
-6. You will be taken to your organization's dashboard, where you will see a list of all its repositories. The `flygreeting` repository should be listed.
+6. You will be taken to your organization's dashboard to see a list of all its repositories. The `flygreeting` repository should be listed.
 
 ### Authorize CircleCI for deployment
-CircleCI needs authorization to automate deployments on your behalf. First, generate a token using flyctl, then add it to the `flygreeting` project setting on CircleCI's dashboard.
+CircleCI needs your authorization to automate deployments on your behalf. Generate a token using flyctl and add it to the `flygreeting` project setting on CircleCI's dashboard.
 
 To generate a fly token, run the following command from your local terminal:
 
@@ -117,15 +117,15 @@ To generate a fly token, run the following command from your local terminal:
 flyctl auth token
 ```
 
-Copy the generated token and go to the [CircleCI project page](https://app.circleci.com/projects). Select organization and find the `flygreeting` repository. Click the **Set Up Project** button in front of it. Click the **Use Existing Config** button, then click the **Start Building** button. We are not really building the project yet. As expected, the build fails with 
+Copy the generated token and go to the [CircleCI project page](https://app.circleci.com/projects). Select the organization and find the `flygreeting` repository. Click the **Set Up Project** button in front of it. Click the **Use Existing Config** button, then click the **Start Building** button. As expected, the build fails with:
 
 `No .circleci/config.yml was found in your project. Click Add Config to choose how to add a config file or refer to documentation.` 
 
-This is because you have not configured the project for deployment just yet.
+This message indicates that you have not configured the project yet.
 
 At the upper right corner of the page, click the **Project Setting** button with the gear icon. This takes you to the CircleCI `flygreeting` settings page. On the sidebar, select **Environment Variables**. Click the **Add Variable** button. Enter the name as `FLY_API_TOKEN`, paste the previously generated API token into the value box and click **Add Environment Variable** to save. 
 
-By adding the token to the environmental variables of the `flygreeting` project, you are making sure that CircleCI has access to the authentication it needs to deploy `flygreeting` to the Fly platform on your behalf.
+By adding the token to the `flygreeting` project’s environmental variables, you are making sure that CircleCI has access to the authentication it needs to deploy `flygreeting` to the Fly platform on your behalf.
 
 ### Configuring CircleCI for Deployment
 
@@ -225,14 +225,16 @@ sh -c "flyctl info"
 exit 0
 ```
 
-The script installs `curl` and uses it to install the [flyctl command line tool](https://fly.io/docs/flyctl/). Then it sets the environment variables and deploys the application using `flyctl deploy`. The last command, `flyctl info`, gives you some information about the newly deployed app such as the application name, app running status, and version.
+The script installs `curl` and uses it to install the [flyctl command line tool](https://fly.io/docs/flyctl/). Then it sets the environment variables and deploys the application using `flyctl deploy`. The last command, `flyctl info`, displays metadata like the application name, status, and version.
 
 ### Testing the Deployment
-Now that the application is configured for deployment to CircleCI, and we have written the deployment script, it's time to test if it works. The goal is to ensure that committing and pushing the code to the `flygreeting` repository kicks off a build process in CircleCI and ultimately deploys the `flygreeting` app.
+Now that the application is configured for deployment to CircleCI, and you’ve written the deployment script, it's time to test if it works. The goal is to ensure that committing and pushing the code to the `flygreeting` repository kicks off a build process in CircleCI and ultimately deploys the `flygreeting` app.
 
-Commit and push your changes to the `main` branch of your Github/Bitbucket repository. You can monitor the build process by visiting the CircleCI project Dashboard. Selecting `flygreeting` should take you to the project's build pipelines. Here you'll see the project's workflow `test-and-deploy`, as well as its jobs `test` and `deploy` building.
+Commit and push your changes to the `main` branch of your Github/Bitbucket repository. You can monitor the build process by visiting the CircleCI project Dashboard. Selecting `flygreeting` should take you to the project's build pipelines. Here you'll see the project's workflow, `test-and-deploy`, and its jobs, `test` and `deploy`, building.
 
 ![You can click the running job to view it in action](fly-circleci-1.png)
+
+You can tell the build is successful once you see a green success label.
 
 ![You can tell the build is successful once you see a green success label](fly-circleci-2.png)
 
@@ -242,11 +244,11 @@ To test the application, call the `/countries` endpoint using curl:
 curl http://<your-fly-app-name>.fly.dev/v1/countries/
 ```
 
-You should see a JSON response with the same country abbreviations seen above. Any code changes you push to your repository, will kick off an automated CircleCI deployment workflow.
+You should see a JSON response with the same country abbreviations seen above. Any code changes you push to your repository will kick off an automated CircleCI deployment workflow.
 
 ## Conclusion
-This tutorial has demonstrated how to test and deploy a Go application to Fly using CircleCI. You have learned how to use the flyctl command line tool, connect CircleCI to a version control platform, and configure an application for automated deployment. Setting up continuous deployment across your application is an investment, but once done it will greatly reduce the complexity of maintaining your application.
+This tutorial has demonstrated how to test and deploy a Go application to Fly using CircleCI. You have learned how to use the flyctl command-line tool, connect CircleCI to a version control platform, and configure automated deployments. Setting up continuous deployment across your application is an investment, but once done, it will significantly reduce the complexity of maintaining your app.
 
-Further reading to learn more about concepts discussed in this tutorial can be found here:
+Further reading about the concepts discussed in this tutorial can be found here:
 - [Flyctl CLI Reference](https://fly.io/docs/flyctl/)
 - [CircleCI Configuration Reference](https://circleci.com/docs/2.0/configuration-reference/)
