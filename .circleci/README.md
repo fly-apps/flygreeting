@@ -13,13 +13,13 @@ This tutorial describes how to deploy an application to Fly using CircleCI. You 
 - The [Flyctl command line tool](https://fly.io/docs/flyctl/installing/).
 - (Optional) [Docker](https://www.docker.com/) for testing the demo application locally.
 
-### Cloning the sample application
+### Forking and Cloning the Sample Application
 This tutorial uses the [flygreeting](https://github.com/fly-examples/flygreeting) sample application. If you use Github, simply fork [the `flygreeting` repository](https://github.com/fly-examples/flygreeting) to your account and clone it to your local machine.
 
 If you use Bitbucket, click the **Create Repository** button, click the **import repository** link at the top right corner, and enter `https://github.com/fly-examples/flygreeting.git` in the URL box, select a project and click the **Import Repository** button. You can then clone the repository to your local machine.
 
 ```
-git clone git@github.com:fly-examples/flygreeting.git
+git clone git@github.com:<your_github_username>/flygreeting.git
 
 cd flygreeting
 ```
@@ -44,11 +44,10 @@ You should get a JSON response with a list of country codes.
 {"countries":["AD","AE","AF","AG","AI","AL","AM","AO","AQ","AR","AS","AT","AU","AW","AX","AZ","BA","BB","BD","BE","BF","BG","BH","BI","BJ","BL","BM","BN","BO","BQ","BR","BS","BT","BV","BW","BY","BZ","CA","CC","CD","CF","CG","CH","CI","CK","CL","CM","CN","CO","CR","CU","CV","CW","CX","CY","CZ","DE","DJ","DK","DM","DO","DZ","EC","EE","EG","EH","ER","ES","ET","FI","FJ","FK","FM","FO","FR","GA","GB","GD","GE","GF","GG","GH","GI","GL","GM","GN","GP","GQ","GR","GS","GT","GU","GW","GY","HK","HM","HN","HR","HT","HU","ID","IE","IL","IM","IN","IO","IQ","IR","IS","IT","JE","JM","JO","JP","KE","KG","KH","KI","KM","KN","KP","KR","KW","KY","KZ","LA","LB","LC","LI","LK","LR","LS","LT","LU","LV","LY","MA","MC","MD","ME","MF","MG","MH","MK","ML","MM","MN","MO","MP","MQ","MR","MS","MT","MU","MV","MW","MX","MY","MZ","NA","NC","NE","NF","NG","NI","NL","NO","NP","NR","NU","NZ","OM","PA","PE","PF","PG","PH","PK","PL","PM","PN","PR","PS","PT","PW","PY","QA","RE","RO","RS","RU","RW","SA","SB","SC","SD","SE","SG","SH","SI","SJ","SK","SL","SM","SN","SO","SR","SS","ST","SV","SX","SY","SZ","TC","TD","TF","TG","TH","TJ","TK","TL","TM","TN","TO","TR","TT","TV","TW","TZ","UA","UG","UM","US","UY","UZ","VA","VC","VE","VG","VI","VN","VU","WF","WS","YE","YT","ZA","ZM","ZW"]}
 ```
 
-### Creating the Fly Configuration file
+### Creating the Fly Configuration File
+Next, you need to initialize an app of Fly. This reserves you an application name and creates a fly configuration file. You need the `flyctl` command-line tool for that. If you haven't already, visit [flyctl](https://fly.io/docs/hands-on/installing/) to learn how to install the fly CLI for your machine.
 
-Next, you need to reserve a namespace on the Fly platform remotely and create a fly configuration file. You need the `flyctl` command-line tool for that. If you haven't already, visit [flyctl](https://fly.io/docs/hands-on/installing/) to learn how to install the fly CLI for your machine.
-
-We then login/sign up to fly:
+Login or sign up:
 
 ```
 # Sign up
@@ -63,10 +62,10 @@ Every fly application needs a `fly.toml` file to manage deployment. You can find
 ```
  rm fly.toml
 
- flyctl apps create
+ flyctl init
 ```
 
-The `flyctl apps create` command creates an interactive session that requests things like the 'App name' and 'Organization name'. You can type a unique App name, or leave it blank if you want a Fly to auto-generate name to avoid namespace collisions. Fly will also reserve the app name on the platform, for when you deploy.
+The `flyctl init` command starts an interactive session that requests things like the 'App name', 'Organization name', 'Builder', and 'Internal port'. You can type a unique App name, or leave it blank if you want a Fly to auto-generate name to avoid namespace collisions. Fly will also reserve the app name on the platform, for when you deploy.
 
 At the end of the session, your `fly.toml` file should look like the following, with a different app name:
 
@@ -108,7 +107,7 @@ To start using CircleCI with your repository, complete the following steps:
 5. Select the organization you wish to work with.
 6. You will be taken to your organization's dashboard to see a list of all its repositories. The `flygreeting` repository should be listed.
 
-### Authorize CircleCI for deployment
+### Authorize CircleCI for Deployment
 CircleCI needs your authorization to automate deployments on your behalf. Generate a token using flyctl and add it to the `flygreeting` project setting on CircleCI's dashboard.
 
 To generate a fly token, run the following command from your local terminal:
@@ -125,7 +124,7 @@ This message indicates that you have not configured the project yet.
 
 At the upper right corner of the page, click the **Project Setting** button with the gear icon. This takes you to the CircleCI `flygreeting` settings page. On the sidebar, select **Environment Variables**. Click the **Add Variable** button. Enter the name as `FLY_API_TOKEN`, paste the previously generated API token into the value box and click **Add Environment Variable** to save. 
 
-By adding the token to the `flygreeting` project’s environmental variables, you are making sure that CircleCI has access to the authentication it needs to deploy `flygreeting` to the Fly platform on your behalf.
+By adding the token to the `flygreeting` project’s environment variables, you are making sure that CircleCI has access to the authentication it needs to deploy `flygreeting` to the Fly platform on your behalf.
 
 ### Configuring CircleCI for Deployment
 
@@ -178,7 +177,7 @@ workflows:
                         only: main
 ```
 
-#### Walk-through of the `config.yml` file
+#### Walk-through of the `config.yml` File
 - **version**: In the file, we instruct CircleCI to use [its most recent version](https://circleci.com/docs/2.0/configuration-reference/#version).
 
 - **jobs**: The `jobs` section contains two jobs: `test` and `deploy`. 
@@ -238,10 +237,10 @@ You can tell the build is successful once you see a green success label.
 
 ![You can tell the build is successful once you see a green success label](fly-circleci-2.png)
 
-To test the application, call the `/countries` endpoint using curl:
+To test the application, call the `/v1/countries` endpoint using curl:
 
 ```bash
-curl http://<your-fly-app-name>.fly.dev/v1/countries/
+curl https://<your-fly-app-name>.fly.dev/v1/countries/
 ```
 
 You should see a JSON response with the same country abbreviations seen above. Any code changes you push to your repository will kick off an automated CircleCI deployment workflow.
