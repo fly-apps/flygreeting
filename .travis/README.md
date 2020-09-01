@@ -35,13 +35,13 @@ To test the Flygreeting app locally, you can run it using Docker:
 
 ```
 docker build -t flygreeting .
-docker run -p 8000:8080 -d flygreeting
+docker run -p 8080:8080 -d flygreeting
 ```
 
 To test the application, call the `/countries` endpoint using curl:
 
 ```bash
-curl http://localhost:8000/v1/countries/
+curl http://localhost:8080/v1/countries/
 ```
 
 You should see a JSON response with all the available country abbreviations:
@@ -68,7 +68,7 @@ You will be directed to a web page that will allow you to log in using your GitH
 Every Fly application makes use of the `fly.toml` file to manage deployments. Because you cloned this demo app, it already has a `fly.toml` file. You can delete it and generate a new one automatically by running:
 
 ```
-rm fly.toml && flyctl apps create
+rm fly.toml && flyctl init
 ```
 
 This command creates an interactive session that requests your app name, organization name, and builder. You can type in a unique app name or leave it blank if you want Fly to autogenerate a unique name to avoid namespace collisions. Fly will also reserve the app name on the platform, for when you deploy. Select `Dockerfile` as your builder.
@@ -120,7 +120,7 @@ deploy:
         branch: main
 ```
 
-This tells Travis CI that our application uses [Go 1.14](https://golang.org/). Travis will use its [Go environment](https://docs.travis-ci.com/user/languages/go/) to run the script, `go test -v` specified. If the tests fail, the whole build fails. Finally, the `deploy` section instructs Travis to run the `scripts/deploy.sh` file if the build passes on the `main` branch.
+This tells Travis CI that our application uses [Go 1.14](https://golang.org/). Travis will use its [Go environment](https://docs.travis-ci.com/user/languages/go/) to run the script. This runs Golang tests with minimal logging. For this example we want to override that and use `go test -v` to get the verbose test results. We run that through the script directive. If any script fails to run without errors, the whole build fails.
 
 ### Writing the Deployment Script
 Next, create a deploy script to install and run the Flyctl command-line tool on the Travis CI virtual environment after the build succeeds. Create a new directory called `scripts` with a file called `deploy.sh` inside:
@@ -153,7 +153,7 @@ sh -c "flyctl info"
 exit 0
 ```
 
-This command installs the Flyctl command-line tool and sets the environmental variables that make it possible to use the shortcut `flyctl` command. Next, it runs `flyctl deploy` to deploy the `flygreeting` application using the `fly.toml` file. Once the application is deployed, it runs `flyctl info` to give you information about the newly deployed app, including the name, version, status, and hostname.
+This installs the Flyctl command-line tool, sets environmental variables, and adds `flyctl` to the command-line's path. Next, it runs `flyctl deploy` to deploy the `flygreeting` application using the `fly.toml` file. Once the application is deployed, it runs `flyctl info` to give you information about the newly deployed app, including the name, version, status, and hostname.
 
 ### Connect Travis CI to Your Git Repository
 Next, you need to link Travis with your repository hosting service. Visit [travis-ci.com](https://travis-ci.com/) and sign in with either GitHub or Bitbucket. You will be redirected to your repository host, where you can authorize Travis CI to have access to your GitHub or Bitbucket account.
