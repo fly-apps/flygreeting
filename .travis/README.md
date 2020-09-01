@@ -25,7 +25,7 @@ To demonstrate deploying an application to Travis, you can use the [Flygreeting 
 Fork [flygreeting](https://github.com/fly-examples/flygreeting) to your own repository (if you use GitHub), then clone it to your local machine:
 
 ```
-git clone git@github.com:fly-examples/flygreeting.git
+git clone git@github.com:<your_github_username>/flygreeting.git
 cd flygreeting
 ```
 
