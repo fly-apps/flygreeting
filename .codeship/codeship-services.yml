@@ -1,5 +1,5 @@
 main:
   build:
-    dockerfile: .codeship/Dockerfile-test
+    dockerfile: Dockerfile-test
   encrypted_env_file:
-    - .codeship/env.encrypted
+    - env.encrypted
