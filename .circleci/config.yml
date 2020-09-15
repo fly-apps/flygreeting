@@ -1,0 +1,37 @@
+version: 2
+jobs:
+  test:
+    docker:
+      # specify the version
+      - image: circleci/golang:1.14
+    steps:
+      # fetch repo from Github
+      - checkout
+      # Run tests
+      - run: go test -v
+  deploy:
+    docker:
+      # specify OS base to run the steps from
+      - image: alpine:3.12
+    steps:
+      - checkout
+      - run:
+          name: Deploy Application to Fly
+          command: |
+            chmod +x scripts/deploy.sh
+            ./scripts/deploy.sh
+
+
+workflows:
+  version: 2
+  test-and-deploy:
+    jobs:
+      - test
+      - deploy:
+          requires:
+            # the test job must pass, before starting the deploy job
+            - test
+          filters:
+            branches:
+              # deploy only on branch main
+              only: main
