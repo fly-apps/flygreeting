@@ -1,0 +1,7 @@
+FROM golang:alpine
+RUN apk add build-base
+RUN mkdir /build
+ADD . /build/
+WORKDIR /build
+RUN go build -o main .
+CMD ["./main"]
