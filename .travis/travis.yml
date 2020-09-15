@@ -1,0 +1,12 @@
+language: go
+go:
+    - 1.14
+
+script:
+    - go test -v
+
+deploy: 
+    provider: script
+    script: bash scripts/deploy.sh
+    on:
+        branch: main
